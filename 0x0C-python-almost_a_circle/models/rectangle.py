@@ -132,10 +132,3 @@ class Rectangle(Base):
         return "[Rectangle] ({}) {}/{} - {}/{}".format(self.id,
                                                        self.x, self.y,
                                                        self.width, self.height)
-
-
-square.py
-
-#!/usr/bin/python3
-"""Class Square is defined"""
-from models.rectangle import Rectangle
